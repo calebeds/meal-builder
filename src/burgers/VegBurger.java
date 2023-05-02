@@ -1,8 +1,8 @@
 package burgers;
 
-import items.Burgers;
+import items.Burger;
 
-public class VegBurger extends Burgers {
+public class VegBurger extends Burger {
     @Override
     public String getName() {
         return "Veggie Burger";

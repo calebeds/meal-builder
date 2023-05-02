@@ -1,8 +1,8 @@
 package drinks;
 
-import items.ColdDrinks;
+import items.ColdDrink;
 
-public class Coke extends ColdDrinks {
+public class Coke extends ColdDrink {
     @Override
     public String getName() {
         return "Coke";

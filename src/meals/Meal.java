@@ -23,6 +23,6 @@ public class Meal {
             System.out.println("--Price: " + item.getPrice());
             System.out.println("--Packaging Type: " + item.getPacking().pack());
         });
-        System.out.println("Total Price: " + getCost());
+        System.out.println("\nTotal Price: " + getCost() + "\n");
     }
 }
